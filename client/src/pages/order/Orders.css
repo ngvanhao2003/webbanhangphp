@@ -1,0 +1,138 @@
+/* Tổng thể */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Wrapper */
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề */
+h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 600;
+  font-style: oblique;
+}
+
+/* Các đơn hàng */
+.order-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.order-item {
+  display: flex;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Hình ảnh sản phẩm */
+.order-image {
+  flex: 0 0 120px;
+  margin-right: 20px;
+}
+
+.order-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Thông tin đơn hàng */
+.order-info {
+  flex-grow: 1;
+}
+
+.store-name {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.product-name {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.order-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.order-status {
+  color: #10b981; /* màu xanh cho trạng thái "shipped" */
+  font-weight: 600;
+}
+
+.payment-status {
+  font-weight: 500;
+  color: #f0ad4e;
+  margin-top: 10px;
+}
+
+.payment-method {
+  font-size: 14px;
+  font-weight: 500;
+  color: #888;
+}
+
+/* Các nút hành động */
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.action-btn {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.review-btn {
+  background-color: #f0ad4e;
+  color: white;
+}
+
+.reorder-btn {
+  background-color: #0b5ed7;
+  color: white;
+}
+
+.action-btn:hover {
+  opacity: 0.8;
+}
+
+.action-btn:active {
+  transform: scale(0.98);
+}

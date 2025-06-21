@@ -1,0 +1,143 @@
+.brand-admin-bg {
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+.brand-admin-header {
+  background: linear-gradient(90deg, #6366f1 0%, #60a5fa 100%);
+  color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px rgba(99,102,241,0.15);
+  padding: 2rem 2rem 1rem 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brand-admin-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: -1px;
+}
+.brand-admin-card {
+  background: #fff;
+  border-radius: 1.25rem;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.brand-admin-form label {
+  font-weight: 600;
+  color: #6366f1;
+}
+.brand-admin-form .form-control {
+  border-radius: 0.75rem;
+  border: 1px solid #c7d2fe;
+  margin-bottom: 1.25rem;
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  background: #f1f5f9;
+  transition: border 0.2s;
+}
+.brand-admin-form .form-control:focus {
+  border: 1.5px solid #6366f1;
+  background: #fff;
+}
+.brand-admin-form button {
+  border-radius: 0.75rem;
+  font-weight: 600;
+  padding: 0.5rem 1.5rem;
+  font-size: 1.1rem;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(99,102,241,0.08);
+}
+.brand-admin-form .btn-success {
+  background: linear-gradient(90deg, #22d3ee 0%, #6366f1 100%);
+  border: none;
+}
+.brand-admin-form .btn-success:hover {
+  background: linear-gradient(90deg, #6366f1 0%, #22d3ee 100%);
+}
+.brand-admin-form .btn-secondary {
+  background: #e0e7ff;
+  color: #6366f1;
+  border: none;
+}
+.brand-admin-form .btn-secondary:hover {
+  background: #6366f1;
+  color: #fff;
+}
+.brand-admin-table {
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 2px 16px rgba(99,102,241,0.07);
+}
+.brand-admin-table th, .brand-admin-table td {
+  vertical-align: middle !important;
+  font-size: 1.05rem;
+}
+.brand-admin-table th {
+  background: #6366f1;
+  color: #fff;
+  border: none;
+}
+.brand-admin-table tbody tr:nth-child(even) {
+  background: #f1f5f9;
+}
+.brand-admin-table tbody tr:hover {
+  background: #e0e7ff;
+  transition: background 0.2s;
+}
+.brand-admin-table img {
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 6px rgba(99,102,241,0.10);
+}
+.brand-admin-table .btn {
+  margin: 0 0.2rem;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  box-shadow: 0 1px 4px rgba(99,102,241,0.08);
+}
+.brand-admin-table .btn-success {
+  background: linear-gradient(90deg, #22d3ee 0%, #6366f1 100%);
+  border: none;
+}
+.brand-admin-table .btn-success:hover {
+  background: linear-gradient(90deg, #6366f1 0%, #22d3ee 100%);
+}
+.brand-admin-table .btn-secondary {
+  background: #e0e7ff;
+  color: #6366f1;
+  border: none;
+}
+.brand-admin-table .btn-secondary:hover {
+  background: #6366f1;
+  color: #fff;
+}
+.brand-admin-table .btn-primary {
+  background: #818cf8;
+  border: none;
+}
+.brand-admin-table .btn-primary:hover {
+  background: #6366f1;
+}
+.brand-admin-table .btn-danger {
+  background: #f87171;
+  border: none;
+}
+.brand-admin-table .btn-danger:hover {
+  background: #ef4444;
+}
+@media (max-width: 991px) {
+  .brand-admin-header, .brand-admin-card {
+    padding: 1rem;
+  }
+  .brand-admin-form .form-control {
+    font-size: 0.95rem;
+    padding: 0.5rem 0.75rem;
+  }
+  .brand-admin-table th, .brand-admin-table td {
+    font-size: 0.95rem;
+  }
+}
